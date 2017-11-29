@@ -1,0 +1,22 @@
+{
+  "name": "dthree",
+  "version": "1.0.0",
+  "description": "d3 studying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisliakovsky/dThree.git"
+  },
+  "keywords": [
+    "d3"
+  ],
+  "author": "kisliakovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kisliakovsky/dThree/issues"
+  },
+  "homepage": "https://github.com/kisliakovsky/dThree#readme"
+}
