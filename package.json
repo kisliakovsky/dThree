@@ -2,9 +2,14 @@
   "name": "dthree",
   "version": "1.0.0",
   "description": "d3 studying",
-  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2017"
+    ]
+  },
+  "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --inline"
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,19 @@
   "bugs": {
     "url": "https://github.com/kisliakovsky/dThree/issues"
   },
-  "homepage": "https://github.com/kisliakovsky/dThree#readme"
+  "homepage": "https://github.com/kisliakovsky/dThree#readme",
+  "dependencies": {
+    "d3": "^4.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.19.0",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.5"
+  }
 }
