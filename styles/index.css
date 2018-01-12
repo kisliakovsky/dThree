@@ -4,6 +4,16 @@ html, body {
     font-family: sans-serif;
 }
 
+html {
+    /*noinspection CssNoGenericFontName*/
+    font-family: 'OpenSans' !important;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../font/Open_Sans/OpenSans-Regular.ttf');
+}
+
 .axis path, .axis line {
     fill: none;
     stroke: #eee;
