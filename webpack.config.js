@@ -4,16 +4,18 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = [
   {
     entry: {
-      app: ['./lib/main.js'],
+      app: './lib/main.js',
     },
     output: {
       path: path.resolve(__dirname, 'build'),
-      publicPath: '/assets/',
       filename: 'bundle.js',
+      publicPath: '/assets/',
     },
     devtool: 'inline-source-map',
     plugins: [
-      new ExtractTextPlugin('index.css'),
+      new ExtractTextPlugin({
+        filename: 'index.css',
+      }),
     ],
     module: {
       rules: [
@@ -30,7 +32,14 @@ module.exports = [
           test: /\.scss$/,
           use: ExtractTextPlugin.extract({
             fallback: 'style-loader',
-            use: ['css-loader', 'sass-loader'],
+            use: [
+              {
+                loader: 'css-loader',
+              },
+              {
+                loader: 'sass-loader',
+              },
+            ],
           }),
         },
         {

@@ -38,3 +38,14 @@ html {
   75% {stroke: green;}
   100% {stroke: red;}
 }
+
+.tooltip {
+  line-height: 1;
+  padding: 6px;
+  background: rgba(255, 246, 252, 0.7);
+  border-radius: 10px;
+  font-size: 12px;
+  &-container {
+
+  }
+}
