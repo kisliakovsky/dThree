@@ -144,3 +144,32 @@ header {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.cup {
+  width: 60px;
+  height: 60px;
+  background: no-repeat 50% 50%;
+  background-size: 100px;
+  float: right;
+  position: relative;
+}
+
+#winner {
+  display: inline-block;
+}
+
+#winner-cup {
+  background-image: url('/img/gold.svg');
+  top: -32px;
+  right: 70px;
+}
+
+#silver-cup {
+  background-image: url('/img/silver.svg');
+  top: -30px;
+  right: 102px;
+}
+
+.none {
+  display: none;
+}
