@@ -1,57 +1,3 @@
-//html, body {
-//  padding: 0;
-//  margin: 0;
-//}
-//
-//html {
-//  font-family: 'OpenSans', sans-serif !important;
-//}
-//
-//@font-face {
-//  font-family: 'OpenSans';
-//  src: url('/font/Open_Sans/OpenSans-Regular.ttf');
-//}
-//
-//.axis {
-//  text {
-//    font-size: 11px;
-//  }
-//  path, line {
-//    fill: none;
-//    stroke: #eee;
-//    shape-rendering: crispEdges;
-//  }
-//}
-//
-//.bar {
-//  fill: steelblue;
-//}
-//
-//.trippy {
-//  animation: wheee 3s infinite;
-//  fill: green !important;
-//}
-//
-//@keyframes wheee {
-//  0% {stroke: red;}
-//  25% {stroke: yellow;}
-//  50% {stroke: blue;}
-//  75% {stroke: green;}
-//  100% {stroke: red;}
-//}
-//
-//.tooltip {
-//  line-height: 1;
-//  padding: 6px;
-//  background: rgba(255, 246, 252, 0.7);
-//  border-radius: 10px;
-//  font-size: 12px;
-//  &-container {
-//
-//  }
-//}
-
-
 .countries {
   stroke: #f7f7f7;
   fill: #d9d9d9;
@@ -191,8 +137,4 @@ header {
 #xAxis text,
 #yAxis text {
   font-size: 14px;
-}
-
-.bar {
-
 }
