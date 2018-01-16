@@ -9,6 +9,7 @@
   },
   "main": "lib/main.js",
   "scripts": {
+    "build": "webpack",
     "start": "webpack-dev-server --inline"
   },
   "repository": {
@@ -35,6 +36,7 @@
     "d3-ease": "^1.0.3",
     "d3-format": "^1.2.2",
     "d3-geo": "^1.9.1",
+    "d3-hierarchy": "^1.1.5",
     "d3-random": "^1.1.0",
     "d3-request": "^1.0.6",
     "d3-scale": "^1.0.7",
