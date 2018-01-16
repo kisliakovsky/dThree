@@ -43,7 +43,7 @@ module.exports = [
           }),
         },
         {
-          test: /\.ttf$/,
+          test: /\.(ttf|otf)$/,
           loader: 'file?name=font/[name].[ext]',
         },
       ],
